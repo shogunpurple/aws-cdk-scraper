@@ -1,0 +1,24 @@
+{
+  "name": "aws-cdk-scraper",
+  "version": "0.1.0",
+  "bin": {
+    "aws-cdk-scraper": "bin/aws-cdk-scraper.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.32.2",
+    "aws-cdk": "1.32.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.32.2",
+    "@aws-cdk/aws-dynamodb": "^1.32.2",
+    "@aws-cdk/aws-lambda": "^1.32.2",
+    "@aws-cdk/aws-s3": "^1.32.2",
+    "@aws-cdk/core": "1.32.2"
+  }
+}
